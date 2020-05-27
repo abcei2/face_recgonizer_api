@@ -3,8 +3,8 @@ import cv2
 import imutils
 
 def detect(model,img):
-
-    img = imutils.resize(img, width=int(img.shape[1]/1.0))
+    
+    #img = imutils.resize(img, width=int(img.shape[1]/1.0))
 
     bboxs, landmarks = model.detect(img, threshold=0.5, scale=1.0)
 

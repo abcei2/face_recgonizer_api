@@ -1,5 +1,4 @@
-# cerebro_flask
-the goal of this repository is to load a service that switch between detection models and serves to send images to get response
+# facer_recognition with landmarks
 ## repository reference
 ### tanks to insightface and kaiser24
 https://github.com/kaiser24/Face_Recognizer
